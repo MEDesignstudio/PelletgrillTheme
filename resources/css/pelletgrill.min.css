@@ -1,7 +1,8 @@
 /* V3 */ 
 
 body>#vue-app, body>#vue-error {
-    background: url(https://cdn03.plentymarkets.com/irjezq6bkesh/frontend/background/bg-pelletgrill.jpg) !important;
+    background: url(https://cdn03.plentymarkets.com/irjezq6bkesh/frontend/background/bg-pelletgrill.jpg) top center !important;
+    background-attachment: fixed;
 }
 
 #page-body .container-max {
