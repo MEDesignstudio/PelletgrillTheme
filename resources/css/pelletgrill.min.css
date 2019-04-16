@@ -23,7 +23,8 @@ body>#vue-app, body>#vue-error {
 .row .breadcrumbs a, 
 .row .breadcrumbs span,
 .row .breadcrumbs p,
-.row .breadcrumbs li {
+.row .breadcrumbs li,
+.row .breadcrumbs li a {
     color: #fff;
 }
 
