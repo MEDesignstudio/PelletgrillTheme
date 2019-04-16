@@ -5,6 +5,16 @@ h1 {
     font-weight: 700;
 }
 
+.service-bar {
+    background: #c74023;
+    color: #fff;
+}
+
+.service-bar p {
+    text-align: center;
+    color: #fff;
+}
+
 body>#vue-app, body>#vue-error {
     background: url(https://cdn03.plentymarkets.com/irjezq6bkesh/frontend/background/bg-pelletgrill.jpg) top center !important;
     background-size: cover;
