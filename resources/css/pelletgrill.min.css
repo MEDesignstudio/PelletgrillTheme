@@ -15,7 +15,9 @@ body>#vue-app, body>#vue-error {
     color: #fff;
 }
 
-.row .breadcrumbs a {
+.row .breadcrumbs a, 
+.row .breadcrumbs span,
+.row .breadcrumbs p {
     color: #fff;
 }
 
