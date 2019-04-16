@@ -34,7 +34,17 @@ div nav ul.breadcrumb li.breadcrumb-item a {
     color: #fff !important;
 }
 
-.btn-red, .btn-primary {
+.btn-primary {
+    background: #c74023 !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover {
+    background: #d7593e !important;
+    color: #fff !important;
+} 
+
+.btn-red {
     background: #c74023 !important;
     color: #fff !important;
     width: 100%;
@@ -48,8 +58,8 @@ div nav ul.breadcrumb li.breadcrumb-item a {
     margin-bottom: 10px!important;
 }
 
-.btn-red:hover, .btn-primary:hover {
-    margin-top: 5px!important;
+.btn-red:hover {
+    margin-top: 5px !important;
     background: #d7593e !important;
     text-decoration: none;
     border-bottom: solid #a93218 5px;
