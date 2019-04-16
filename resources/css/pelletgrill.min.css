@@ -94,7 +94,8 @@ body>#vue-app, body>#vue-error {
 .row .breadcrumbs span,
 .row .breadcrumbs p,
 .row .breadcrumbs li,
-.row .breadcrumbs li a {
+.row .breadcrumbs li a,
+.breadcrumb-item+.breadcrumb-item::before {
     color: #fff;
 }
 
