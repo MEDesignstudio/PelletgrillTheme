@@ -10,17 +10,26 @@ body>#vue-app, body>#vue-error {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
+.row .breadcrumbs {
+    background: #c74023;
+    color: #fff;
+}
+
+.row .breadcrumbs a {
+    color: #fff;
+}
+
 div nav ul.breadcrumb li.breadcrumb-item a {
     color: #fff !important;
 }
 
 .img-responsive {
     width: 100%;
-    height: auto;
+    height: auto;   
 }
 
 .color-red {
-    color: #FF0000 !important;
+    color: #c74023 !important;
 }
 
 .bg-banner {
