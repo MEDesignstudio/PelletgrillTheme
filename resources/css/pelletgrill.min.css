@@ -15,7 +15,7 @@ h1 {
 }
 
 .ddown ul {
-    background: #7d7e7d;
+    background: #7d7e7d !important;
 }
 
 
@@ -41,11 +41,11 @@ nav ul li a,
 nav a,
 .ddown ul li,
 .ddown ul li a {
-    color: #fff;
+    color: #fff !important;
 }
 
 .ddown ul li a:hover {
-    color: #fff;
+    color: #fff !important;
 }
 
 .navbar-brand img {
