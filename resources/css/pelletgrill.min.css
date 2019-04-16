@@ -37,6 +37,16 @@ nav a {
 
 nav ul {
     background: #7d7e7d;
+    color: #fff;
+}
+
+nav ul li {
+    background: #7d7e7d;
+    color: #fff;
+}
+
+nav ul li a {
+    color: #fff;
 }
 
 #page-header a {
@@ -48,6 +58,7 @@ nav ul {
     background: #c74023;
     color: #fff;
     margin: 0 1em 0 0;
+    font-size: 1.2em;
 }
 
 .service-bar {
