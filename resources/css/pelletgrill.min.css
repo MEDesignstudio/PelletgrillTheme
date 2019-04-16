@@ -1,8 +1,13 @@
 /* ------------------------------------------------------------------------------------ */
 
+h1 {
+    margin: 1.2em 0 1.2em 0;
+    font-weight: 700;
+}
+
 body>#vue-app, body>#vue-error {
-    background: url(https://cdn03.plentymarkets.com/irjezq6bkesh/frontend/background/bg-pelletgrill.jpg) top center no-repeat !important;
-    background-attachment: fixed;
+    background: url(https://cdn03.plentymarkets.com/irjezq6bkesh/frontend/background/bg-pelletgrill.jpg) top center !important;
+    background-size: cover;
 }
 
 #page-body .container-max {
@@ -17,7 +22,8 @@ body>#vue-app, body>#vue-error {
 
 .row .breadcrumbs a, 
 .row .breadcrumbs span,
-.row .breadcrumbs p {
+.row .breadcrumbs p,
+.row .breadcrumbs li {
     color: #fff;
 }
 
