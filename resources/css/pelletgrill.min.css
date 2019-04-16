@@ -14,6 +14,11 @@ div nav ul.breadcrumb li.breadcrumb-item a {
     color: #fff !important;
 }
 
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
 .color-red {
     color: #FF0000 !important;
 }
