@@ -14,6 +14,11 @@ h1 {
     color:#fff;
 }
 
+.ddown ul {
+    background: #7d7e7d;
+}
+
+
 .navbar {
     padding: 0;
     z-index: 1050;
@@ -30,25 +35,17 @@ h1 {
     color: #fff;
 }
 
-nav a {
+nav ul,
+nav ul li,
+nav ul li a,
+nav a,
+.ddown ul li,
+.ddown ul li a {
     color: #fff;
-    font-size: 1.3em;
 }
 
 .navbar-brand img {
     max-height: 4rem;
-}
-
-nav ul {
-    color: #fff;
-}
-
-nav ul li {
-    color: #fff;
-}
-
-nav ul li a {
-    color: #fff;
 }
 
 #page-header a {
