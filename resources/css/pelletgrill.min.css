@@ -20,7 +20,7 @@ h1 {
 
 
 .navbar {
-    padding: 0;
+    padding: 1em;
     z-index: 1050;
     background-color: none !important;
     background: none !important;
