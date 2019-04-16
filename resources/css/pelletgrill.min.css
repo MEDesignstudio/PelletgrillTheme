@@ -26,6 +26,10 @@ h1 {
     font-size: 1.3em;
 }
 
+.navbar a:hover {
+    color: #fff;
+}
+
 nav a {
     color: #fff;
     font-size: 1.3em;
@@ -36,12 +40,10 @@ nav a {
 }
 
 nav ul {
-    background: #7d7e7d;
     color: #fff;
 }
 
 nav ul li {
-    background: #7d7e7d;
     color: #fff;
 }
 
