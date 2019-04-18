@@ -164,4 +164,8 @@ div nav ul.breadcrumb li.breadcrumb-item a {
         transition: all 0.3s ease;
 }
 
+.wrapper-main .navbar {
+    border-bottom: solid #000 1px !important;
+}
+
 /* ------------------------------------------------------------------------------------ */
