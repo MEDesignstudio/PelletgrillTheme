@@ -169,7 +169,9 @@ div nav ul.breadcrumb li.breadcrumb-item a {
 }
 
 .parallax-img-container .parallax-text-container h1 {
-    padding: 2em 0 2em 0,
+    padding: .5em 0 .5em 0 !important;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 /* ------------------------------------------------------------------------------------ */
