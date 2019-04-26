@@ -35,12 +35,12 @@ h1 {
     color: #fff;
 }
 
-nav ul,
-nav ul li,
-nav ul li a,
-nav a,
-.ddown ul li,
-.ddown ul li a {
+#page-header-children nav ul,
+#page-header-children nav ul li,
+#page-header-children nav ul li a,
+#page-header-children nav a,
+#page-header-children .ddown ul li,
+#page-header-children .ddown ul li a {
     color: #fff !important;
 }
 
