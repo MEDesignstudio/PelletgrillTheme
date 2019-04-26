@@ -168,4 +168,8 @@ div nav ul.breadcrumb li.breadcrumb-item a {
     border-bottom: solid #000 1px !important;
 }
 
+.parallax-img-container .parallax-text-container h1 {
+    padding: 2em 0 2em 0,
+}
+
 /* ------------------------------------------------------------------------------------ */
