@@ -2,11 +2,28 @@
 <link rel="stylesheet" href="{{ plugin_path('PelletgrillTheme') }}/css/pelletgrill.min.css">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100322870-1"></script>
+
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  ga('set', 'anonymizeIp', true);
-  gtag('config', 'UA-100322870-1', { 'anonymize_ip': true });
+
+    var gaProperty = 'UA-100322870-1';
+    var disableStr = 'ga-disable-' + gaProperty;
+
+    if (document.cookie.indexOf(disableStr + '=true') > -1) {
+        window[disableStr] = true;
+    }
+
+    function gaOptout() {
+        document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+        window[disableStr] = true;
+        alert('Das Tracking durch Google Analytics wurde in Ihrem Browser für diese Website deaktiviert.');
+    }
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100322870-1"></script>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-100322870-1', { 'anonymize_ip': true });
 </script>
