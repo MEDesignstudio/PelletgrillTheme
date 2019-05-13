@@ -92,7 +92,8 @@ body>#vue-app, body>#vue-error {
 }
 
 .row .breadcrumbs {
-    background: #c74023;
+    /* background: #c74023; */
+    background: none !important;
     color: #fff;
 }
 
