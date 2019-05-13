@@ -36,6 +36,10 @@ h1 {
     color:#fff !important;
 }
 
+#page-header #mainNavbarCollapsable a {
+    color: #fff !important;
+}
+
 #page-header-children nav ul,
 #page-header-children nav ul li,
 #page-header-children nav ul li a,
@@ -45,9 +49,6 @@ h1 {
     color: #fff !important;
 }
 
-#page-header nav a {
-    color: #fff;
-}
 
 .ddown ul li a:hover {
     color: #fff !important;
