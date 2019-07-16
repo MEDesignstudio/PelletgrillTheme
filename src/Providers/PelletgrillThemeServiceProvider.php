@@ -66,15 +66,16 @@ class PelletgrillThemeServiceProvider extends ServiceProvider
         }, self::PRIORITY);
 
         // Override homepage
+        /*
         if (in_array("homepage", $enabledOverrides) || in_array("all", $enabledOverrides))
         {
 
-            $dispatcher->listen('IO.tpl.home', function (TemplateContainer $container)
-            {
+            $dispatcher->listen('IO.tpl.home', function (TemplateContainer $container) {
                 $container->setTemplate('PelletgrillTheme::Homepage.Homepage');
                 return false;
             }, self::PRIORITY);
         }
+        */
 
         // Override template for content categories
         if (in_array("category_content", $enabledOverrides) || in_array("all", $enabledOverrides))
